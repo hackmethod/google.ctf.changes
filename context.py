@@ -17,11 +17,13 @@ DEFAULT_CSP_POLICY = {
         'script-src': [
             "'self'",
             "'unsafe-eval'",  # Needed for Charts.js
+            'www.google-analytics.com', #google analytics
         ],
         'frame-ancestors': ["'none'"],
         'img-src': [
             "'self'",
             'data:',
+            'www.google-analytics.com', #google analytics
         ],
         'object-src': ["'none'"],
         'reflected-xss': ['block'],
@@ -33,15 +35,6 @@ DEFAULT_CSP_POLICY = {
             "'self'",
             'fonts.googleapis.com',
             "'unsafe-inline'",  # Needed for Charts.js
-        ],
-        'default-src': ["'none'"],
-        'script-src': [
-            "'self'",
-            'www.google-analytics.com',
-        ],
-        'img-src': [
-            "'self'",
-            'www.google-analytics.com',
         ],
         }
 
