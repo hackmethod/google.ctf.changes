@@ -17,14 +17,16 @@ DEFAULT_CSP_POLICY = {
         'script-src': [
             "'self'",
             "'unsafe-eval'",  # Needed for Charts.js
-            'www.google-analytics.com', #google analytics
+            'www.google-analytics.com', #Google Analytics
+            'pagead2.googlesyndication.com', #Google Ads
         ],
         'frame-ancestors': ["'none'"],
         'img-src': [
             "'self'",
             'data:',
             'www.hackmethod.com', #hackmethod.com
-            'www.google-analytics.com', #google analytics
+            'www.google-analytics.com', #Google Analytics
+            'pagead2.googlesyndication.com', #Google Ads
         ],
         'object-src': ["'none'"],
         'reflected-xss': ['block'],
