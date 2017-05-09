@@ -23,6 +23,7 @@ DEFAULT_CSP_POLICY = {
         'img-src': [
             "'self'",
             'data:',
+            'www.hackmethod.com', #hackmethod.com
             'www.google-analytics.com', #google analytics
         ],
         'object-src': ["'none'"],
