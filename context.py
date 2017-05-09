@@ -34,8 +34,15 @@ DEFAULT_CSP_POLICY = {
             'fonts.googleapis.com',
             "'unsafe-inline'",  # Needed for Charts.js
         ],
- #       'default-src': ["'none'"];
- #       'script-src': ["'self' www.google-analytics.com;img-src www.google-analytics.com;
+        'default-src': ["'none'"],
+        'script-src': [
+            "'self'",
+            'www.google-analytics.com',
+        ],
+        'img-src': [
+            "'self'",
+            'www.google-analytics.com',
+        ],
         }
 
 _CSP_POLICY_STRING = None
