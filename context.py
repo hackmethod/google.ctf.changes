@@ -40,8 +40,6 @@ DEFAULT_CSP_POLICY = {
 
 _CSP_POLICY_STRING = None
 
-
-
 def get_csp_policy():
     global _CSP_POLICY_STRING
     if _CSP_POLICY_STRING is not None:
